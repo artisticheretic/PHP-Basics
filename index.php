@@ -56,17 +56,75 @@
     // echo "<br>";
     // echo str_replace ("There", "Here", "There she is");
 
-    $x = 5985;
-    var_dump(is_float($x));
+    // $x = 5985;
+    // var_dump(is_float($x));
 
-    echo "<br>";
+    // echo "<br>";
     
-    $y = "This is a string, not a integer";
-    var_dump(is_string($y));
+    // $y = "This is a string, not a integer";
+    // var_dump(is_string($y));
 
-    echo "<br>";
+    // echo "<br>";
 
-    $x = 1.9e411;
-    var_dump($x);
+    // $x = 1.9e41;
+    // var_dump($x);
 
+    // echo "<br>";
+
+    // $x = 1.9e410;
+    // var_dump($x);
+
+
+    // Cast float to int
+    // $x = 23465.768;
+    // $int_cast = (int)$x;
+    // echo $int_cast;
+
+    // echo "<br>";
+
+    // Cast string to float
+    // $x = "23465.768";
+    // $int_cast = (float)$x;
+    // echo $int_cast;
+
+    // Constants are global 
+
+    // define("GREETING", "Welcome to W3Schools.com!");
+    // echo GREETING;
+
+    // echo "<br>";
+
+    // define("cars", ["Alfa Romeo", "BMW", "Toyota"]);
+    //   echo cars[1]; // Outputs the value at its respective index
+
+    // $x = 5;
+    // $y = 10;
+    // echo (++$x);
+    // echo "<br>";
+    // echo ($y++);
+
+    // echo "<br>";
+
+    // $a = 20;
+    // $b = 30;
+    // echo (--$a);
+    // echo "<br>";
+    // echo ($b--);
+
+    // $favcolor = "blue";
+    
+    // switch ($favcolor) {
+    //     case "red":
+    //         echo "Your favorite color is red!";
+    //         break;
+    //     case "blue":
+    //         echo "Your favorite color is blue!";
+    //         break;
+    //     case "green":
+    //         echo "Your favorite color is green!";
+    //         break;
+    //     default:
+    //     echo "Your favorite color is neither red, blue, nor green!";
+    // }
+    
 ?>
